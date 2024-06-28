@@ -1,14 +1,18 @@
 #!/usr/bin/python3
-"""Pascal Triangle Algorithm"""
+"""
+Pascal Triangle Algorithm
+"""
 
 
 def pascal_triangle(n):
-  """Pascal Triangle function"""
+  """
+  Pascal Triangle function
+  """
   triangle = []
   i = 0
     
   if n <= 0:
-    return []
+    return triangle
         
   while i < n :
     row = [0] * (i + 1)
