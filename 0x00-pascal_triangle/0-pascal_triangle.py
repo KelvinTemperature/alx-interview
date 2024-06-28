@@ -1,10 +1,14 @@
 #!/usr/bin/python3
+"""Pascal Triangle Algorithm"""
 
 
 def pascal_triangle(n):
     triangle = []
     i = 0
     
+    if n <= 0:
+        return []
+        
     while i < n :
         row = [0] * (i + 1)
         row[0] = 1
