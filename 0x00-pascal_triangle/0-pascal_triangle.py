@@ -3,7 +3,6 @@
 Pascal Triangle Algorithm
 """
 
-
 def pascal_triangle(n):
   """
   Pascal Triangle function
@@ -12,7 +11,7 @@ def pascal_triangle(n):
   i = 0
     
   if n <= 0:
-    return triangle
+    return []
         
   while i < n :
     row = [0] * (i + 1)
