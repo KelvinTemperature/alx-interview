@@ -10,7 +10,7 @@ def isWinner(x, nums):
         return None
     if x != len(nums):
         return None
-    
+
     def sieve_of_eratosthenes(limit):
         primes = [True] * (limit + 1)
         p = 2
