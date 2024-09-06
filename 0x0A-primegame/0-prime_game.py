@@ -3,7 +3,9 @@
 
 
 def isWinner(x, nums):
-    # Helper function to generate primes using Sieve of Eratosthenes
+    """ Helper function to generate primes 
+        using Sieve of Eratosthenes
+    """
     def sieve_of_eratosthenes(limit):
         primes = [True] * (limit + 1)
         p = 2
