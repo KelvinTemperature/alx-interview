@@ -12,6 +12,9 @@ def isWinner(x, nums):
         return None
 
     def sieve_of_eratosthenes(limit):
+        """Funtion to get prime number
+           in range of limit
+        """
         primes = [True] * (limit + 1)
         p = 2
         while p * p <= limit:
